@@ -3,6 +3,7 @@ import { Hero } from '@/components/hero'
 import { TITLE } from '../../constants'
 import { ImageCard } from '@/components/imageCard'
 import { WaitListCard } from '@/components/waitListCard'
+import { Footer } from '@/components/footer'
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
           <ImageCard />
         </div>
         
-    
+        <Footer />
     </div>
   )
 }
