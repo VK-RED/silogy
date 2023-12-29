@@ -1,12 +1,13 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import { DarkModeToggle } from '@/components/darkModeToggle'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <div>
-      HI I am the Home Page !!!
+      <div className='mt-2'>
+        <DarkModeToggle />
+      </div>
+    
     </div>
   )
 }
