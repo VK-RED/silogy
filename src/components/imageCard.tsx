@@ -14,7 +14,7 @@ export function ImageCard(){
             </div>
 
             <blockquote className="mt-10 pl-6 italic text-center">
-                "Meet the Future"
+                {`"Meet the Future"`}
             </blockquote>
         </div>
         
